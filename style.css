@@ -1,13 +1,29 @@
 body {
-  background: #111;
-  color: white;
-  text-align: center;
+  margin: 0;
   font-family: Arial;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
 }
 
-button {
-  padding: 10px 20px;
-  background: blue;
+.container {
+  text-align: center;
+  margin-top: 150px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #00c6ff;
   color: white;
-  border: none;
+  text-decoration: none;
+  border-radius: 5px;
 }
